@@ -1,9 +1,7 @@
-//
-
-const TinyTimer = function() {
+const TinyStopwatch = function() {
   let startTime = Date.now();
   this.getInterval = function() {
-    return `${new Date(Date.now() - startTime) / 1000}s`;
+    return new Date(Date.now() - startTime) / 1000;
   };
   this.reset = function() {
     startTime = Date.now();
@@ -12,4 +10,4 @@ const TinyTimer = function() {
 
 // And that's it, it's really tiny
 
-module.exports = TinyTimer;
+module.exports = TinyStopwatch;
