@@ -1,7 +1,10 @@
 {
   "name": "tiny-stopwatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny replacement for console.time() and console.timeEnd()",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
