@@ -1,0 +1,23 @@
+{
+  "name": "tiny-stopwatch",
+  "version": "1.0.0",
+  "description": "Tiny replacement for console.time() and console.timeEnd()",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubtelec/tiny-stopwatch.git"
+  },
+  "keywords": [
+    "stopwatch",
+    "timer"
+  ],
+  "author": "Jakub Telec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakubtelec/tiny-stopwatch/issues"
+  },
+  "homepage": "https://github.com/jakubtelec/tiny-stopwatch#readme"
+}
