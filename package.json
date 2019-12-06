@@ -1,6 +1,6 @@
 {
   "name": "tiny-stopwatch",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "Tiny replacement for console.time() and console.timeEnd()",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
