@@ -1,10 +1,10 @@
 ### What does it do?
 
-It measueres time passed since moment of it's instance initialization. In seconds, because we are humans.
+It measueres time passed since moment of it's initialization. In seconds, because we are humans.
 
 ### Why?
 
-To avoid annoying missing/duplicating labels errors and inconvenient syntax when using `console.time()` and `console.timeEnd()` in async js code. Since I'm ussung this tiny snippet in many separated projects it's better to keep it - and share - as a package.
+To avoid annoying missing/duplicating labels errors and inconvenient syntax when using `console.time()` and `console.timeEnd()` in async js code. Since I'm using this tiny snippet in many separated projects it's better to keep it - and share - as a package.
 
 ### How?
 
